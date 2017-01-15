@@ -1,0 +1,8 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Steps to Run CTP as a Service using systemd
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1) Edit path for workingDirectory and Runner.jar in ctp.service according to your CTP installation
+2) copy ctp.service into /etc/systemd/system
+3) enter in commandline: sudo systemctl enable ctp.service
+4) reboot

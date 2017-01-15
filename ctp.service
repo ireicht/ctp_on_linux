@@ -1,0 +1,13 @@
+[Unit]
+Description=CTP Runner
+After=network.target
+
+[Service]
+#Type=forking
+WorkingDirectory=/home/csi-hd/transfer2dkfz/CTP/
+ExecStart=/usr/bin/java -jar /home/csi-hd/transfer2dkfz/CTP/Runner.jar
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
