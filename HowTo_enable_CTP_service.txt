@@ -1,5 +1,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Steps to Run CTP as a Service using systemd
+Since Ubuntu 15.01 systemd manages services
+https://wiki.ubuntu.com/SystemdForUpstartUsers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1) Edit path for workingDirectory and Runner.jar in ctp.service according to your CTP installation
