@@ -4,6 +4,8 @@ After=network.target
 
 [Service]
 #Type=forking
+#if no User set, CTP service will run as root
+User=www-data
 WorkingDirectory=/home/csi-hd/transfer2dkfz/CTP/
 ExecStart=/usr/bin/java -jar /home/csi-hd/transfer2dkfz/CTP/Runner.jar
 Restart=always
